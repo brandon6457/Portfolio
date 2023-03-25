@@ -22,7 +22,7 @@ body {
 header {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--primary);
+    background-color: var(--tertiary);
 }
 header h1 {
     display: inline-block;
@@ -65,7 +65,7 @@ header nav ul li {
     display: flex;
     background-image: url(../images/02-portfolio-4.jpg);
     background-image: url(../images/02-portfolio-1.jpg);
-    background-image: url(../imgaes/02-portfolio-2.jpg);
+    background-image: url(../images/02-portfolio-2.jpg);
     background-image: url(../images/02-portfolio-3.jpg);
     background-image: url(../images/02-run-buddy.jpg);
 }
