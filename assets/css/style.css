@@ -58,3 +58,14 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+.work {
+    height: 400px;
+    width: 75%;
+    margin-bottom: 10px;
+    display: flex;
+    background-image: url(../images/02-portfolio-4.jpg);
+    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: url(../imgaes/02-portfolio-2.jpg);
+    background-image: url(../images/02-portfolio-3.jpg);
+    background-image: url(../images/02-run-buddy.jpg);
+}
