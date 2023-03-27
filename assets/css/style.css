@@ -9,6 +9,16 @@
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+}
+  
+  /* set content highlight color and background */
+::selection {
+    background-color: var(--bright-turquoise);
+    color: var(--outer-space);
 }
   
 body {
@@ -63,7 +73,7 @@ header nav ul li {
     margin-bottom: 15px;
     text-align: right;
 }
-.main-image {
+.big-hero {
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
@@ -81,19 +91,18 @@ header nav ul li {
     margin-right: 20px;
     margin-bottom: 40px;
 }
-.code-card pre {
-    /* set styles to make it so code wraps in <pre> instead of overflowing */
-    white-space: pre-wrap;
-    overflow: auto;
-    tab-size: 4;
-    padding: 1.2rem 1rem;
-    color: var(--gin);
-    border-radius: 8px;
-    /* use linear-gradient() function to create a fading background  */
-    background-image: linear-gradient(
-      rgba(232, 102, 236, 0.3) 0%,
-      rgba(232, 102, 236, 0.6) 100%
-    );
-    display: flex;
-    align-items: center;
-}
+.led-wall {
+    background-image: url("../images/02-portfolio-1.jpg");
+  }
+  
+  .react-calc {
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  .pastel-puzzles {
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  .surf-report {
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
