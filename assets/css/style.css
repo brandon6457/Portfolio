@@ -20,7 +20,7 @@ body {
     line-height: 1.5;
 }
 header {
-    padding: 30px;
+    height: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--tertiary);
 }
@@ -28,6 +28,11 @@ header h1 {
     display: inline-block;
     font-size: 40px;
     color: var(--dark);
+    background-color: var(--secondary);
+    padding-left: 70px;
+    padding-right: 10px;
+    text-align: right;
+    margin-top: 1px;
 }
 nav a {
     text-decoration: none;
@@ -45,10 +50,18 @@ nav a:hover {
     background-size: 100% 100%;
     color: var(--primary);
 }
+header nav {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    float: right;
+    margin-left: 3px;
+    margin-bottom: 15px;
+    text-align: right;
 }
 .main-image {
     height: 200px;
@@ -57,15 +70,30 @@ header nav ul li {
     background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     background-position: center;
+    margin-top: 0px;
 }
-.work {
-    height: 400px;
-    width: 75%;
-    margin-bottom: 10px;
+.my-portfolio {
+    display: inline-block;
+    background-color: var(--secondary);
+    color: var(--dark);
+    font-size: x-large;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.code-card pre {
+    /* set styles to make it so code wraps in <pre> instead of overflowing */
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    color: var(--gin);
+    border-radius: 8px;
+    /* use linear-gradient() function to create a fading background  */
+    background-image: linear-gradient(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+    );
     display: flex;
-    background-image: url(../images/02-portfolio-4.jpg);
-    background-image: url(../images/02-portfolio-1.jpg);
-    background-image: url(../images/02-portfolio-2.jpg);
-    background-image: url(../images/02-portfolio-3.jpg);
-    background-image: url(../images/02-run-buddy.jpg);
+    align-items: center;
 }
