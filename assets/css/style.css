@@ -34,6 +34,7 @@ header h1 {
     text-align: right;
     margin-top: 1px;
     height: 60px;
+    margin-right: 1100px;
 }
 nav a {
     text-decoration: none;
@@ -63,6 +64,7 @@ header nav ul li {
     margin-left: 3px;
     margin-bottom: 15px;
     text-align: right;
+    align-items: right;
 }
 .big-hero {
     height: 200px;
@@ -73,13 +75,14 @@ header nav ul li {
     background-position: center;
     margin-top: 0px;
 }
+
 .my-portfolio {
     background-color: var(--secondary);
     color: var(--dark);
-    font-size: x-large;
-    text-align: right;
-    margin-right: 20px;
+    font-size: 50px;
+    margin-right: 100px;
     margin-bottom: 40px;
+    margin-top: 100px;
     float: right;
     
 }
@@ -148,5 +151,12 @@ header nav ul li {
     border-style: solid;
     border-color: var(--secondary);
     float: right;
+
+}
+.main{
+  display: flex;
+  border-right: 5px;
+}
+.section {
 
 }
