@@ -9,18 +9,7 @@
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
-    --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e866ec;
 }
-  
-  /* set content highlight color and background */
-::selection {
-    background-color: var(--bright-turquoise);
-    color: var(--outer-space);
-}
-  
 body {
     margin: 0;
     padding: 0;
@@ -30,6 +19,7 @@ body {
     line-height: 1.5;
 }
 header {
+  display: flex;
     height: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--tertiary);
@@ -43,6 +33,7 @@ header h1 {
     padding-right: 10px;
     text-align: right;
     margin-top: 1px;
+    height: 60px;
 }
 nav a {
     text-decoration: none;
@@ -55,14 +46,14 @@ nav a {
     background-position: bottom;
     transition: all 0.25s ease-in;
     font-size: 1.4rem;
-  }
+}
 nav a:hover {
     background-size: 100% 100%;
     color: var(--primary);
 }
 header nav {
     padding-top: 5px;
-    margin-right: 20px;
+    margin-right: 60px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -83,26 +74,79 @@ header nav ul li {
     margin-top: 0px;
 }
 .my-portfolio {
-    display: inline-block;
     background-color: var(--secondary);
     color: var(--dark);
     font-size: x-large;
     text-align: right;
     margin-right: 20px;
     margin-bottom: 40px;
+    float: right;
+    
+}
+  
+.surf-report {
+    background-image: url(../images/02-portfolio-4.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    height: 300px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary);
+    float: right;
 }
 .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
-  }
+    background-image: url(../images/02-portfolio-1.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 450px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary);
+    float: right;
+
+}
+
+.react-calc {
+    background-image: url(../images/02-portfolio-2.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 450px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary);
+    float: right;
+
+}
   
-  .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
-  }
-  
-  .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
-  }
-  
-  .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
-  }
+.pastel-puzzles {
+    background-image: url(../images/02-portfolio-3.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 450px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary);
+    float: right;
+
+}
+.run-buddy {
+    background-image: url(../images/02-run-buddy.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 450px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary);
+    float: right;
+
+}
