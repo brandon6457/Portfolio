@@ -63,7 +63,7 @@ h1 {
 }
 h2 {
    border-right: 5px solid var(--primary);
-   text-align: right;
+   justify-content: right;
    padding-right: 10px;
    font-size: 40px;
 }
@@ -78,6 +78,7 @@ h2 {
 }
 .my-portfolio {
    background-color: var(--secondary);
+   border: none;
    color: var(--dark);
    font-size: 50px;
    margin-right: 80px;
@@ -87,56 +88,49 @@ h2 {
    padding-left: 10px;
    padding-right: 10px;
 }
-.surf-report {
-   background-image: url(../images/02-portfolio-4.jpg);
-   display: flex;
-   flex-wrap: wrap;
-   border-width: 5px;
-   border-style: solid;
+.surf-report, .react-calc, .led-wall, .run-buddy, .pastel-puzzles {
+   border: 5px solid;
    border-color: var(--secondary);
    margin: 10px;
+}
+.real-people-travel {
+   background-image: url(../images/Page1.png);
+   background-position: center;
+   width: 1000px;
+   height: 450px;
 }
 .led-wall {
    background-image: url(../images/02-portfolio-1.jpg);
-   display: flex;
-   flex-wrap: wrap;
-   border-width: 5px;
-   border-style: solid;
-   border-color: var(--secondary);
-   margin: 10px;
+   width: 490px;
+   height: 200px;
 }
 .react-calc {
    background-image: url(../images/02-portfolio-2.jpg);
-   display: flex;
-   flex-wrap: wrap;
-   border-width: 5px;
-   border-style: solid;
-   border-color: var(--secondary);
-   margin: 10px;
+   width: 490px;
+   height: 200px;
 }
 .pastel-puzzles {
    background-image: url(../images/02-portfolio-3.jpg);
-   flex-wrap: wrap;
-   border-width: 5px;
-   border-style: solid;
-   border-color: var(--secondary);
-   margin: 10px;
+   width: 490px;
+   height: 200px;
 }
 .run-buddy {
    background-image: url(../images/02-run-buddy.jpg);
-   display: flex;
-   flex-wrap: wrap;
-   border-width: 5px;
-   border-style: solid;
-   border-color: var(--secondary);
-   margin: 10px;
+   width: 490px;
+   height: 200px;
 }
 .flex-container {
-   display: grid;
-   grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
-   width: auto;
-   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
-#about-me, #work, #contact-me {
+#about-me {
+   display: flex;
+   justify-content: space-evenly;
+}
+#work {
+   display: flex;
+}
+#about-me {
    display: flex;
 }
