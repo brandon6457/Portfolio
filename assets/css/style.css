@@ -88,19 +88,20 @@ h2 {
    padding-left: 10px;
    padding-right: 10px;
 }
-.real-people-travel, .react-calc, .led-wall, .run-buddy, .pastel-puzzles {
+.Mental-Oasis, .react-calc, .real-people-travel, .run-buddy, .pastel-puzzles {
    border: 5px solid;
    border-color: var(--secondary);
    margin: 10px;
 }
-.real-people-travel {
-   background-image: url(../images/Page1.png);
+.Mental-Oasis {
+   background-image: url(../images/Mental-Oasis.jpeg);
    background-position: center;
    width: 1000px;
    height: 450px;
 }
-.led-wall {
-   background-image: url(../images/02-portfolio-1.jpg);
+.real-people-travel {
+   background-image: url(../images/Page1.png);
+   background-position: center;
    width: 490px;
    height: 200px;
 }
